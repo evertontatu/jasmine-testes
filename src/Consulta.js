@@ -13,11 +13,11 @@ function Consulta(paciente, procedimentos, particular, retorno){
                 else precoFinal += 25;
             });
 
-            if(particular) precoFinal += 2;
+            if(particular) precoFinal *= 2;
 
             return precoFinal;
         }
-    };
+    }
 
     return clazz;
 };
